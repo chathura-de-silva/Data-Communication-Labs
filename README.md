@@ -22,14 +22,14 @@ Welcome to the Data Communication and Networks lab exercises repository. This re
 
 ## Lab 2 - Analog Signal Processing and PCM Encoding
 
-In this lab, you will work on creating an analog signal generator, sampler, quantizer, and an encoder for Pulse Code Modulation (PCM) encoding.
+  -  In this lab, you will work on creating an analog signal generator, sampler, quantizer, and an encoder for Pulse Code Modulation (PCM) encoding.
 
 
 
 
 
 
-
+---
 For more information about the lab exercises or specific implementations, refer the README files included in respective lab directory.
 
 ---
