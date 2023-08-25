@@ -18,7 +18,7 @@ In this lab, you will work on creating an analog signal generator, sampler, quan
 
 
 
-For more information about the lab exercises or specific implementations, feel free to explore the repository's code and files.
+For more information about the lab exercises or specific implementations, refer the README files included in respective lab directory.
 
 ---
 
