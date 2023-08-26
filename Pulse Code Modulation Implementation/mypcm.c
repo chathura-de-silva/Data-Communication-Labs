@@ -35,7 +35,7 @@ void quantizer(float *samples, int *pcmpulses, int levels)
 			pcmpulses[i-1] = levels - 1; //note that pcmpulses arrays first element is a special element for passing the size of the array. it contain pulses starting from second element.
 		}
 		else{
-			pcmpulses[i-1] = floor(levels*(samples[i] + amplitude) / (2.0*amplitude));
+			pcmpulses[i-1] = (int)floor(levels*(samples[i] + amplitude) / (2.0*amplitude));
 		}
         // printf("%f  - ",samples[i] ); // Uncomment for testing
         // printf("%d\n",pcmpulses[i-1] ); // Uncomment for testing

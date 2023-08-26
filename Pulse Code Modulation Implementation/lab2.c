@@ -22,12 +22,12 @@ int main()
 
 void run(asignal * inputsignal) 
 {
-    float interval;  // interval is the sampling interval
+    int interval;  // interval is the sampling interval
     int encoderbits ;  // encoderbits is the number of bits used for encoding
     int arraylength; //will change the value during execution since some arrays are different in length.
     
     // read input from stdin and assign to inputsignal, interval, and encoderbits.
-	scanf("%f %f %f %d %f %d", &inputsignal->A, &inputsignal->omega, &inputsignal->sigma, &inputsignal->duration, &interval, &encoderbits);
+	scanf("%f %f %f %d %d %d", &inputsignal->A, &inputsignal->omega, &inputsignal->sigma, &inputsignal->duration, &interval, &encoderbits);
 
     arraylength = (1+ inputsignal->duration / interval); // arraylength is the size of the array of samples without additional 2 elements which may specify some parameters in arrays except in the dsignal and pcmpulses. +1 is since there is a sampling point at the intial starting point.
     
