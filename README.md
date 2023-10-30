@@ -5,8 +5,8 @@
         media="(prefers-color-scheme: dark)"
       />
       <img 
-        src="https://github.com/Chathura-De-Silva/Data-Communication-Labs/blob/master/banner.png" 
-        alt="Academease Preview"
+        src="./banner.png" 
+        alt="Data Commmununications Labs Banner"
         width="800"
        />
     </picture>
